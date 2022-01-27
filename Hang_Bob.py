@@ -5,7 +5,7 @@ Author: Quinton Lin
 
 __author__ = "Quinton Lin"
 
-# import statement
+
 import random
 from constant_strings import wordlist, stages
 
