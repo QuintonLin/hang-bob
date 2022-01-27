@@ -28,6 +28,7 @@ def get_input():
     valid_guess = False
     while valid_guess == False:
         for i in guess:
+            # only runs if anything other than a letter is detected
             if ord(i) < 65 or ord(i) > 90:
                 guess = input("\nInvalid input! " + PROMPT)
                 guess = guess.upper()
