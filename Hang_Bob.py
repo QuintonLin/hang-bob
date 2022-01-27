@@ -154,7 +154,7 @@ def game():
 
 
 def main():
-    """Run the main program, check if user wants to play Hang Bob and runs the game function"""
+    """Run the main menu program, check if user wants to play Hang Bob and runs the game function"""
 
     start = input("Would you like to play Hang Bob? Please enter (y)es or (n)o: ").upper()
     while start != "N" and start != "NO":
